@@ -1,0 +1,171 @@
+body {
+    background-color: white;
+    width: 100vw;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Top_bar {
+    display: flex;
+    padding-left: 1.3vw;
+    padding-right: 2.8vw;
+    margin: 1.3vw;
+    outline: 0.3vw solid black;
+    border-radius: 5px;
+    height: 5vh;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 5px 3px rgba(22, 22, 22, 0.3);
+}
+
+.Logo {
+    font-size: 5vh;
+    font-weight: 600;
+}
+
+.Stats {
+    display: flex;
+    flex-direction: row; 
+    width: 42vw;
+    justify-content: space-between;
+}
+
+.Delivers , .Orders {
+    display: flex;
+    width: 18vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.red {
+    background-color: rgb(255, 0, 0);
+    border-radius: 100vw;
+    width: 1.8vw;
+    height: 1.8vw;
+}
+
+.green {
+    background-color: rgb(0, 205, 0);
+    border-radius: 100vw;
+    width: 1.8vw;
+    height: 1.8vw;
+}
+
+.red_no {
+    color: rgb(255, 0, 0);
+}
+
+.green_no {
+    color: rgb(0, 205, 0);
+}
+
+.Search_bar {
+    display: flex;
+    margin: 1.3vw;
+    margin-top: 1.2vh;
+    padding-left: 3.6vw;
+    padding-right: 4vw;
+    outline: 0.3vw solid black;
+    border-radius: 5px;
+    height: 5vh;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 5px 3px rgba(22, 22, 22, 0.3);
+}
+
+.search {
+    font-size: 2vh;
+}
+
+.icon {
+    font-size: 3vh;
+}
+
+.Title {
+    font-size: 3.5vh;
+}
+
+.Titleg {
+    margin-left: 2vw;
+    font-size: 3.5vh;
+}
+
+.Popular_rn {
+    display: flex;
+    flex-direction: column;
+    margin: 1.3vw;
+    margin-top: 1.2vh;
+    padding-top: 1vw;
+    outline: 0.3vw solid black;
+    border-radius: 2px;
+    height: 23vh;
+    width: auto;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(108, 108, 108, 0.3);
+    justify-content: space-evenly;
+}
+
+.Popular_Items {
+    display: flex;
+    overflow-x: auto; 
+    white-space: nowrap; 
+    scroll-behavior: smooth;
+    gap: 2.5vw;
+}
+
+.p1, .p , .p2{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    outline: 0.3vw solid rgb(99, 99, 99);
+    border-radius: 2px;
+    height: 16vh;
+    width: 16vh;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(22, 22, 22, 0.493);
+}
+
+.p1 {
+    margin-left: 2vw;
+}
+
+.p2 {
+    margin-right: 2vw;
+}
+
+.Data {
+    display: flex;
+    margin: 1.3vw;
+    margin-top: 1.2vh;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    outline: 0.3vw solid black;
+    border-radius: 2px;
+    height: 26vh;
+    width: auto;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(108, 108, 108, 0.3);
+}
+
+.Nav_bar {
+    display: flex;
+    margin: 1.3vw;
+    margin-top: 1.2vh;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    outline: 0.3vw solid black;
+    border-radius: 5px;
+    height: 7vh;
+    width: auto;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 5px 3px rgba(22, 22, 22, 0.3);
+}

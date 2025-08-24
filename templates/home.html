@@ -2,13 +2,149 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Flask with JS</title>
+    <title>Ramp_D</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='home/home.css') }}">
 </head>
 <body>
-    <h1>Hello Flask with CSS & JS!</h1>
-    <p id="message">This will change with JavaScript.</p>
+    <div class = "Top_bar">
+        <div class = "Logo">RAMP</div>
+        <div class = "Stats">
+            
+            <div class = "Orders">
+                <div class = "red"></div>
+                <div class = "red_no">00</div>
+                <div class = "order">Nomz</div>
+            </div>
+            <div class = "Delivers">
+                <div class = "green"></div>
+                <div class = "green_no">00</div>
+                <div class = "order">Nemz</div>
+            </div>
 
+        </div>
+    </div>
+
+    <div class = "Search_bar">
+        <div class = "search">Search</div>
+        <div class = "icon">@</div>
+    </div>
+
+    <div class = "Popular_rn">
+        <div class = "Titleg">Popural rn.</div>
+        <div class = "Popular_Items">
+            
+            <div class = "p1">
+                <div class = "prod_image"></div>
+                <div class = "prod_details">
+                    <div class = "prod_name"></div>
+                    <div class = "prod_price"></div>
+                </div>
+            </div>
+
+            <div class = "p">
+                <div class = "prod_image"></div>
+                <div class = "prod_details">
+                    <div class = "prod_name"></div>
+                    <div class = "prod_price"></div>
+                </div>
+            </div>
+
+            <div class = "p">
+                <div class = "prod_image"></div>
+                <div class = "prod_details">
+                    <div class = "prod_name"></div>
+                    <div class = "prod_price"></div>
+                </div>
+            </div>
+
+            <div class = "p">
+                <div class = "prod_image"></div>
+                <div class = "prod_details">
+                    <div class = "prod_name"></div>
+                    <div class = "prod_price"></div>
+                </div>
+            </div>
+
+            <div class = "p2">
+                <div class = "prod_image"></div>
+                <div class = "prod_details">
+                    <div class = "prod_name"></div>
+                    <div class = "prod_price"></div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class = "Popular_rn">
+        <div class = "Titleg">Popural rn.</div>
+        <div class = "Popular_Items">
+            
+            <div class = "p1">
+                <div class = "prod_image"></div>
+                <div class = "prod_details">
+                    <div class = "prod_name"></div>
+                    <div class = "prod_price"></div>
+                </div>
+            </div>
+
+            <div class = "p">
+                <div class = "prod_image"></div>
+                <div class = "prod_details">
+                    <div class = "prod_name"></div>
+                    <div class = "prod_price"></div>
+                </div>
+            </div>
+
+            <div class = "p">
+                <div class = "prod_image"></div>
+                <div class = "prod_details">
+                    <div class = "prod_name"></div>
+                    <div class = "prod_price"></div>
+                </div>
+            </div>
+
+            <div class = "p">
+                <div class = "prod_image"></div>
+                <div class = "prod_details">
+                    <div class = "prod_name"></div>
+                    <div class = "prod_price"></div>
+                </div>
+            </div>
+
+            <div class = "p2">
+                <div class = "prod_image"></div>
+                <div class = "prod_details">
+                    <div class = "prod_name"></div>
+                    <div class = "prod_price"></div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class = "Data">
+        <div class = "Latest_Order">
+            <div class = "time"></div>
+            <div class = "Title">Latest Nomz.</div>
+        </div>
+        <div class = "Average">
+            <div class = "Title">Average Nemz.</div>
+            <div class = "list"></div>
+        </div>
+
+    </div>
+
+    <div class = "Nav_bar">
+        <div class = "role">
+            <div class = "Nomz"></div>
+            <div class = "Nemz"></div>
+        </div>
+        <div class = "cart_full"></div>
+        <div class = "account"></div>
+        <div class = "tracker"></div>
+    </div>
+    
     <script src="{{ url_for('static', filename='home/home.js') }}"></script>
 </body>
 </html>
