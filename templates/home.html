@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask with JS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home/home.css') }}">
+</head>
+<body>
+    <h1>Hello Flask with CSS & JS!</h1>
+    <p id="message">This will change with JavaScript.</p>
+
+    <script src="{{ url_for('static', filename='home/home.js') }}"></script>
+</body>
+</html>
