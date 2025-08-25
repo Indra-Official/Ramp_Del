@@ -30,46 +30,38 @@
     </div>
 
     <div class = "Popular_rn">
-        <div class = "Titleg">Popural rn.</div>
+        <div class = "Titleg"><div class = "red"></div>&nbsp;Popural rn</div>
         <div class = "Popular_Items">
             
             <div class = "p1">
-                <div class = "prod_image"></div>
+                <img class = "prod_image" src = "{{ url_for('static', filename='src/Lays.jpg') }}">
                 <div class = "prod_details">
-                    <div class = "prod_name"></div>
-                    <div class = "prod_price"></div>
+                    <div class = "prod_name">Lays Chips</div>
+                    <div class = "prod_price">+ரூ20</div>
                 </div>
             </div>
 
             <div class = "p">
-                <div class = "prod_image"></div>
+                <img class = "prod_image" src = "{{ url_for('static', filename='src/dew.png') }}">
                 <div class = "prod_details">
-                    <div class = "prod_name"></div>
-                    <div class = "prod_price"></div>
+                    <div class = "prod_name">Mtn Dew</div>
+                    <div class = "prod_price">+ரூ40</div>
                 </div>
             </div>
 
             <div class = "p">
-                <div class = "prod_image"></div>
+                <img class = "prod_image" src = "{{ url_for('static', filename='src/milk_shake.png') }}">
                 <div class = "prod_details">
-                    <div class = "prod_name"></div>
-                    <div class = "prod_price"></div>
-                </div>
-            </div>
-
-            <div class = "p">
-                <div class = "prod_image"></div>
-                <div class = "prod_details">
-                    <div class = "prod_name"></div>
-                    <div class = "prod_price"></div>
+                    <div class = "prod_name">Milk Shake</div>
+                    <div class = "prod_price">+ரூ35</div>
                 </div>
             </div>
 
             <div class = "p2">
-                <div class = "prod_image"></div>
+                <img class = "prod_image" src = "{{ url_for('static', filename='src/Kitkat.webp') }}">
                 <div class = "prod_details">
-                    <div class = "prod_name"></div>
-                    <div class = "prod_price"></div>
+                    <div class = "prod_name">Kitkat</div>
+                    <div class = "prod_price">+ரூ30</div>
                 </div>
             </div>
         
@@ -77,22 +69,28 @@
     </div>
 
     <div class = "Popular_rn">
-        <div class = "Titleg">Popural rn.</div>
+        <div class = "Titleg"><div class = "green"></div>&nbsp;Speed Nomz</div>
         <div class = "Popular_Items">
             
             <div class = "p1">
-                <div class = "prod_image"></div>
+                <div class = "prod_image">
+                    <img class = "prod_images" src = "{{ url_for('static', filename='src/Lays.jpg') }}">
+                    <img class = "prod_images" src = "{{ url_for('static', filename='src/dew.png') }}">
+                </div>
                 <div class = "prod_details">
-                    <div class = "prod_name"></div>
-                    <div class = "prod_price"></div>
+                    <div class = "prod_name">Lays & Dew</div>
+                    <div class = "prod_price">+ரூ75</div>
                 </div>
             </div>
 
             <div class = "p">
-                <div class = "prod_image"></div>
+                <div class = "prod_image">
+                    <img class = "prod_images" src = "{{ url_for('static', filename='src/milk_shake.png') }}">
+                    <img class = "prod_images" src = "{{ url_for('static', filename='src/Kitkat.webp') }}">
+                </div>
                 <div class = "prod_details">
-                    <div class = "prod_name"></div>
-                    <div class = "prod_price"></div>
+                    <div class = "prod_name">KK & Milk</div>
+                    <div class = "prod_price">+ரூ65</div>
                 </div>
             </div>
 
@@ -125,14 +123,68 @@
 
     <div class = "Data">
         <div class = "Latest_Order">
-            <div class = "time"></div>
-            <div class = "Title">Latest Nomz.</div>
-        </div>
-        <div class = "Average">
-            <div class = "Title">Average Nemz.</div>
-            <div class = "list"></div>
+            <div class = "Title">New Nomz</div>
+            <div class = "list">
+                <div class = "list_ele">
+                    <div class = "id"></div>
+                    <div class = "time_ord"></div>
+                </div>
+
+                <div class = "list_ele">
+                    <div class = "id"></div>
+                    <div class = "time_ord"></div>
+                </div>
+
+                <div class = "list_ele">
+                    <div class = "id"></div>
+                    <div class = "time_ord"></div>
+                </div>
+
+                <div class = "list_ele">
+                    <div class = "Name"></div>
+                    <div class = "time_ord"></div>
+                </div>
+            </div>
         </div>
 
+        <div class = "Average">
+            
+            <div class = "timers">
+                
+                <div class = "time_box">
+                    <div class = "Time1">
+                        <div class = "Time"></div>
+                        <div class = "Time_val"></div>
+                        <div class = "Unit"></div>
+                    </div>
+                    <div class = "Type"></div>
+                </div>
+
+                <div class = "time_box">
+                    <div class = "Time2">
+                        <div class = "Time"></div>
+                        <div class = "Time_val"></div>
+                        <div class = "Unit"></div>
+                    </div>
+                    <div class = "Type"></div>
+                </div>
+                
+                <div class = "time_box">
+                    <div class = "Time3">
+                        <div class = "Time"></div>
+                        <div class = "Time_val"></div>
+                        <div class = "Unit"></div>
+                    </div>
+                    <div class = "Type"></div>
+                </div>
+
+            </div>
+
+            <div class = "deliver_times">
+
+            </div>
+
+        </div>
     </div>
 
     <div class = "Nav_bar">

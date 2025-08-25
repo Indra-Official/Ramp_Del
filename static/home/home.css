@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&display=swap');
 body {
     background-color: white;
     width: 100vw;
@@ -86,12 +87,15 @@ body {
 }
 
 .Title {
-    font-size: 3.5vh;
+    font-size: 2.5vh;
 }
 
 .Titleg {
     margin-left: 2vw;
-    font-size: 3.5vh;
+    font-size: 2.5vh;
+    display: flex;
+    align-items: center;
+    margin-left: 3.5vw;
 }
 
 .Popular_rn {
@@ -123,13 +127,58 @@ body {
     flex: 0 0 auto;
     outline: 0.3vw solid rgb(99, 99, 99);
     border-radius: 2px;
-    height: 16vh;
-    width: 16vh;
+    height: 17vh;
+    width: 17vh;
     margin-top: 0.5vh;
     margin-bottom: 0.5vh;
     justify-content: space-around;
     background-color: white;
     box-shadow: 2px 2px 4px rgba(22, 22, 22, 0.493);
+    align-items: center;
+}
+
+.prod_image {
+    max-height: 11.7vh;
+    max-width: 15vh;
+    margin-top: -0.5vh;
+    align-self: center;
+}
+
+.prod_images {
+    max-height: 11.7vh;
+    max-width: 8vh;
+    margin-top: -0.5vh;
+    align-self: center;
+}
+
+.prod_details {
+    display: flex;
+    font-size: 1.5vh;
+    width: 15.2vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1.5vh;
+    outline: 0.3vw solid rgb(99, 99, 99);
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(22, 22, 22, 0.493);
+    padding: 1vw;
+}
+
+.prod_price {
+    background-color: rgb(255, 0, 0);
+    border-radius: 33vw;
+    outline: 0.3vw solid black;
+    padding: 0.5vw 1.2vw 0.5vw 1.2vw;
+    color: white;
+    box-shadow: 2px 2px 3px rgba(22, 22, 22, 0.493);
+    font-family: "Baloo Thambi 2", system-ui;
+}
+
+.prod_name {
+    font-size: 1.8vh;
+    letter-spacing: -0.3vw;
+    word-spacing: -1.0vw;
 }
 
 .p1 {
@@ -141,11 +190,9 @@ body {
 }
 
 .Data {
-    display: flex;
     margin: 1.3vw;
     margin-top: 1.2vh;
-    padding-left: 2vw;
-    padding-top: 1vw;
+    display: flex;
     outline: 0.3vw solid black;
     border-radius: 2px;
     height: 26vh;
@@ -153,7 +200,36 @@ body {
     justify-content: space-between;
     background-color: white;
     box-shadow: 0px 5px 5px rgba(108, 108, 108, 0.3);
+    padding: 2vw;
 }
+
+.Latest_Order {
+    width: 45.5vw;
+    height: auto;
+    outline: 0.3vw solid rgb(99, 99, 99);
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 0px 5px 3px rgba(22, 22, 22, 0.3);
+}
+
+.Average {
+    display: flex;
+    flex-direction: column;
+}
+
+.timers {
+    height: 13vh;
+}
+
+.deliver_times {
+    width: 45.5vw;
+    height: 13vh;
+    outline: 0.3vw solid rgb(99, 99, 99);
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 0px 5px 3px rgba(22, 22, 22, 0.3);
+}
+
 
 .Nav_bar {
     display: flex;
